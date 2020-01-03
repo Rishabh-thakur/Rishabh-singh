@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+ clrscr();
+ int a,b,c;
+ printf("Enter 1st number,a=\n");
+ scanf("%d",&a);
+ printf("Enter 2nd number,b=\n");
+ scanf("%d",&b);
+ c=a;
+ a=b;
+ b=c;
+ printf("The values of a is %d
+       and b is %d after swaping\n",a,b);
+ getch();
+}
