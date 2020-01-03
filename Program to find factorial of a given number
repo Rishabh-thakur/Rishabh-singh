@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() 
+{
+int i;
+int fact = 1;
+int num=0;
+printf("Enter a number to find a factorial=\n ");
+scanf("%d",&num);
+if (num < 0)
+{
+printf("enter positive number,Factorial can't be found for a negative number ");
+return 1;
+}
+
+for(i=1; i <= num; i++)
+
+fact = fact*i;
+printf("\n");
+
+printf(" factorial of given positive number=%d\n",fact);
+return 0;
+}
