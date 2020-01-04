@@ -1,0 +1,17 @@
+#include<stdio.h> 
+main() 
+{ 
+int i,n,MI; 
+printf("Enter a number \n");
+scanf("%d",&n);
+  for(i=1;i<=n;i++) 
+  { 
+  MI=((i*26)+1);
+   if(MI%n==0)
+    { 
+    break; 
+    } 
+  }
+   MI=MI/n;
+   printf("Multiplicative inverse of %d is %d\n",n,MI); 
+}
