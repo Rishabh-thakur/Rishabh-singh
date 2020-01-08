@@ -1,6 +1,5 @@
 #include<iostream.h>
 #include<conio.h>
-using namespace std;
 int main()
 {
 clrscr();
@@ -19,4 +18,5 @@ cin>>sp;
 	    loss=cp-sp;
 	    cout<<"Loss of "<<loss<<" rupee";	
 	}
+return 0;
 }
